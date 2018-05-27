@@ -1,0 +1,21 @@
+/*
+    Jacob Hobbie's Portfolio Website
+    Contact CSS
+
+    Author: Jacob Hobbie
+    Created 3/29/2018
+    Last Modified: 3/29/2018
+*/
+
+#contact {
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 3%;
+}
+
+#contact ul li {
+    display: inline-block;
+    width: auto;
+    padding: 0 4%;
+}

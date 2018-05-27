@@ -1,0 +1,15 @@
+/*
+    Jacob Hobbie's Portfolio Website
+    About CSS
+
+    Author: Jacob Hobbie
+    Created 3/29/2018
+    Last Modified: 3/29/2018
+*/
+
+article img {
+    display: block;
+    margin: 3% auto 2% auto;
+    width: 40%;
+    border: 2px white solid;
+}

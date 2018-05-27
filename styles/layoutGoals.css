@@ -1,0 +1,52 @@
+/*
+    Jacob Hobbie's Portfolio Website
+    Goals Home CSS
+
+    Author: Jacob Hobbie
+    Created 3/29/2018
+    Last Modified: 4/1/2018
+*/
+
+#side {
+    display: block;
+    float: left;
+    height: 100%;
+    width: 20%;
+    margin: 0 auto 0 1.4%;
+}
+
+#side ul li {
+    display: block;
+    background-color: #6A48D7;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.24);
+    width: 100%;
+    margin: 0.7% 0.7% 10% 0.7%;
+    text-align: center;
+}
+
+#side ul li a {
+    display: block;
+    padding: 4% 0;
+    color: white;
+    text-decoration: none;
+}
+
+#side ul li:hover {
+    text-decoration: underline;
+}
+
+article {
+    margin-right: 1.4%;
+    float: right;
+}
+
+.goal {
+    text-align: center;
+}
+
+article img {
+    display: block;
+    margin: 3% auto 2% auto;
+    width: 100%;
+    border: 2px white solid;
+}

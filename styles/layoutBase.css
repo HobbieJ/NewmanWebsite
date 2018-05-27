@@ -1,0 +1,165 @@
+/*
+    Jacob Hobbie's Portfolio Website
+    Base CSS
+
+    Author: Jacob Hobbie
+    Created 11/2/2015
+    Last Modified: 3/29/2018
+*/
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #3914AF;
+    min-width: 315px;
+}
+
+header {
+    background-image: url(../images/HelloWorld.jpg);
+    background-size: cover;
+    padding: 2% 0 2% 0;
+    box-shadow: 0 3px 6px;
+}
+
+header h1 {
+    text-align: center;
+    padding: 0.5% 0;
+    font-size: 32px;
+}
+
+header h1 a {
+    color: black;
+    text-decoration: none;
+}
+
+header p {
+    text-align: center;
+    padding: 0.5% 0.5%;
+    color: black;
+    font-size: 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+header h1 a:hover {
+    text-decoration: underline;
+}
+
+#navTop {
+    margin: 1.5% auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#navTop ul li {
+    display: inline-block;
+    background-color: #6A48D7;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.24);
+    width: 23%;
+    margin: 0.7%;
+}
+
+#navTop ul li a {
+    display: block;
+    padding: 4% 0;
+    color: white;
+    text-decoration: none;
+}
+
+#navTop ul li:hover {
+    text-decoration: underline;
+}
+
+article {
+    display: block;
+    margin: auto auto 3% auto;
+    padding: 0 15% 1% 15%;
+    background-color: #6A48D7;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    width: 90%;
+}
+
+article h1 {
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+article h1 a { 
+    color: #C5CAE9;
+    padding: 2% 0 0 2%;
+    text-align: center;
+    text-decoration: none;
+}
+
+article h1 a:hover {
+    text-decoration: underline;
+}
+
+article h2 {
+    color: white;   
+    text-align: center;
+}
+
+article h2 a { 
+    color: #C5CAE9;
+    padding: 1% 0 0 1%;
+    text-align: center;
+    text-decoration: none;
+}
+
+article h2 a:hover {
+    text-decoration: underline;
+}
+
+article p {
+    color: white;
+    padding: 1% 2% 1% 2%;
+    line-height: 130%;
+}
+
+article p a {
+    text-decoration: none;
+    color: #C5CAE9;
+}
+
+article p a:hover {
+    text-decoration: underline;
+}
+
+article ul li {
+    list-style-type: none;
+}
+
+article ul li a {
+    text-decoration: none;
+    color: #C5CAE9;
+}
+
+article ul li a:hover {
+    text-decoration: underline;
+}
+
+/* These elements are for responsive web design */
+@media (min-width: 600px) {
+    header p {
+        margin: 0 20%;
+    }
+    article {
+        width: 70%;
+    }
+}
+    
+@media (min-width: 950px) {
+    header p {
+        margin: 0 30%;
+    }
+    article {
+        width: 41.7%;
+    }
+}
