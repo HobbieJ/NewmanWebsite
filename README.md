@@ -4,4 +4,4 @@ My portfolio upon graduating from Newman University in Wichita, Kansas. I was pr
 
 > Newman University is a Catholic university named for John Henry Cardinal Newman and founded by the Adorers of the Blood of Christ for the purpose of empowering graduates to transform society.
 
-To see my newest work, I'd recommend either heading towards [my website](https://jacobhobbie.com), or it's GitHub repository [here](https://github.com/HobbieJ/HobbieBlog). Thank you!
+This is irregularly updated. To see my newest work, as well as some of my thoughts on other things, I'd recommend going to [my website](https://jacobhobbie.com), or its GitHub repository [here](https://github.com/HobbieJ/HobbieBlog). Thank you!
